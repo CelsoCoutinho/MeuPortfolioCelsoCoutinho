@@ -363,6 +363,7 @@ span {
     height: 5rem;
     background: var(--text-color);
     border-radius: 50%;
+    border: #878A8F 1px solid;
 }
 
 .portfolio-layer a i {
