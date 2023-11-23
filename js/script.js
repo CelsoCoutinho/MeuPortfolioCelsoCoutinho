@@ -38,12 +38,19 @@ window.onscroll = () => {
 };
 
 /* scroll reveal */
+// ScrollReveal({
+//     // reset: true,
+//     distance: '1px',
+//     duration: 2000,
+//     delay: 200
+// });
 ScrollReveal({
     // reset: true,
     distance: '1px',
-    duration: 1,
+    duration: 1000,
     delay: 1
 });
+
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
